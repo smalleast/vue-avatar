@@ -14,7 +14,7 @@
 ## usage:
 + install:
 ```bash
-npm install --save smalleast/vue-avatar
+npm install smalleast/vue-avatar --save
 
 
 ```
