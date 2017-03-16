@@ -3,7 +3,7 @@
     width:size.width?size.width:size,
     height:size.height?size.height:size,
     'border-radius':radius
-  }" :class="['vue-avatar',cssClass]">
+  }" :class="['vue-avatar',className]">
     <img :src="url" :alt="title">
   </div>
 </template>
@@ -24,7 +24,7 @@
         type: String,
         default: '100px'
       },
-      cssClass: {
+      className: {
         type: String
       },
       title: {

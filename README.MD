@@ -4,7 +4,7 @@
 ## props:
 | name | type | value | description |
 | :----| :----| :----| :----|
-| cssClass  | string | '' | Customize css class |
+| className  | string | '' | Customize class name |
 | url  | string | 'http://www.baidu.com/img/bd_logo1.png' | Image url |
 | title  | string | 'img title' | Image title |
 | size  | string | '30px' | Image size(width/height) |
