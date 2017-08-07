@@ -18,7 +18,7 @@
       },
       size: {
         type: String,
-        default: '28px'
+        default: '41px'
       },
       radius: {
         type: String,
