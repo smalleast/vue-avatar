@@ -4,7 +4,7 @@
     height:size.height?size.height:size,
     'border-radius':radius
   }" :class="['vue-avatar',className]">
-    <img :src="url" :alt="title">
+    <img :src="url" :alt="title" :style="{'border-radius':radius}">
   </div>
 </template>
 <script>
@@ -22,7 +22,7 @@
       },
       radius: {
         type: String,
-        default: '100px'
+        default: '100%'
       },
       className: {
         type: String
