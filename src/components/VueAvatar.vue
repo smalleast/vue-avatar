@@ -17,7 +17,7 @@
         type: String
       },
       size: {
-        type: String,
+        type: [String, Object],
         default: '41px'
       },
       radius: {
@@ -31,7 +31,7 @@
         type: String
       }
     },
-    created(){
+    created() {
 
     },
     methods: {},

@@ -1,6 +1,6 @@
 {
   "name": "vue-avatar",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "MintUi(Vue2.x) widget avatar based on sass &amp;amp; webpack.",
   "author": "smalleast <382026180@qq.com>",
   "keywords": [
@@ -56,7 +56,7 @@
     "isparta-loader": "^2.0.0",
     "json-loader": "^0.5.4",
     "lolex": "^1.4.0",
-    "node-sass": "^3.13.0",
+    "node-sass": "^4.5.3",
     "opn": "^4.0.2",
     "ora": "^0.3.0",
     "sass-loader": "^4.0.2",
