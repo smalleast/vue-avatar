@@ -4,7 +4,8 @@
     height:size.height?size.height:size,
     'border-radius':radius
   }" :class="['vue-avatar',className]">
-    <img :src="url" :alt="title" :style="{'border-radius':radius}">
+    <img :src="url" :alt="title" v-if="url" :style="{'border-radius':radius}">
+    <div v-else class="vue-avatar-other"></div>
   </div>
 </template>
 <script>
@@ -52,6 +53,12 @@
       height: 100%;
       transform: translate(-50%, -50%);
       -webkit-transform: translate(-50%, -50%);
+    }
+    &-other{
+      width: 100%;
+      height: 100%;
+      border: 1px solid #ddd;
+      background: #ddd;
     }
   }
 </style>

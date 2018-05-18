@@ -9,7 +9,7 @@ Vue.config.devtools = true
 new Vue({
   el: '#app',
   template: `<div>
-  <VueAvatar size="50px" url="http://himg.bdimg.com/sys/portrait/item/be10475f686d6c723db0023244.jpg" css-class="test1" />
+  <VueAvatar size="50px" url="" css-class="test1" />
   <VueAvatar size="80px" url="http://img1.gtimg.com/19/1919/191993/19199387_980x1200_0.jpg"     css-class="test2" />
   <VueAvatar size="100px" url="http://img1.gtimg.com/19/1919/191993/19199387_980x1200_0.jpg"   css-class="test3" />
   <VueAvatar :size="{width:'300px',height:'100px'}" radius="5px" url="http://img1.gtimg.com/19/1919/191993/19199387_980x1200_0.jpg"   css-class="test3" />
